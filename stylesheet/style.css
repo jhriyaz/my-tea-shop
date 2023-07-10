@@ -386,6 +386,9 @@ footer{
     padding: 30px;
     margin-top: 150px;
 }
+.topfooter img{
+  margin-left:80px;
+}
 .topfooter{
     display: flex;
     padding: 130px 0px;
