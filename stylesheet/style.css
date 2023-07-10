@@ -9,7 +9,10 @@
 .bg-white {
     background: #FFF;
 }
-
+section{
+    width: 1140px;
+    margin: 0 auto;
+}
 .button-primary {
     border-radius: 10px;
     background: linear-gradient(270deg, #F00 0%, #FF8938 100%);
@@ -101,8 +104,7 @@ header {
 /* product feature styles */
 .productFeatures {
     text-align: center;
-
-    margin-top: 100px;
+    padding: 130px 230px;
 }
 
 .productFeatures>p {
@@ -118,8 +120,7 @@ header {
 
 .tea-cards {
     width: 270px;
-    background: linear-gradient(white,rgba(85, 82, 82, 0.171));
-    /* background-color: linear-gradient(180deg, #F4F4F4 , rgba(244, 244, 244, 0.00)); */
+    background: linear-gradient(white, rgba(85, 82, 82, 0.171));
     height: 330px;
     border-radius: 10px;
     padding: 30px;
@@ -141,4 +142,77 @@ header {
     font-size: 16px;
     font-weight: 600;
     padding-top: 10px;
+}
+
+/* Great Tea, Freshly Presented shyle sheet */
+.freshlysection{
+    
+    padding: 130px 230px;
+}
+.freshlysectioncoloumnleft {
+    display: flex;
+    gap: 30px;
+
+}
+
+.emptydiv {
+    width: 238px;
+    height: 136px;
+}
+
+.emptdivup {
+    border-radius: 10px;
+    background: linear-gradient(270deg, rgba(255, 0, 0, 0.219) 0%, #ff883869 100%);
+}
+
+.emptdivdown {
+    border-radius: 10px;
+    background: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.teaimg1 {
+    width: 238px;
+    height: 350px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: rgba(87, 118, 57, 0.10);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.teaimg2 {
+    width: 238px;
+    height: 350px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: rgba(230, 166, 35, 0.10);
+    align-items: center;
+    justify-content: center;    
+    display: flex;
+}
+.freshlysection{
+    display: flex;
+    gap: 70px;
+}
+.freshlysectioncoloumnright{
+    padding-left: 20px;
+}
+.freshlysectioncoloumnright h1{
+    color: #1C1C1C;
+font-family: Manrope;
+font-size: 45px;
+font-weight: 800;
+margin-bottom: 20px;
+}
+.freshlysectioncoloumnright h3{
+    color:#1C1C1C;
+font-family: Manrope;
+font-size: 20px;
+font-weight: 800;
+padding: 30px 0px 20px 0px;
+}
+.freshlysectioncoloumnright p{
+    
+    line-height: 35px;
 }
