@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;700;800&display=swap');
+
+/* common styles */
+.bg-white {
+    background: #FFF;
+}
+
+.button-primary {
+    border-radius: 10px;
+    background: linear-gradient(270deg, #F00 0%, #FF8938 100%);
+    padding: 20px;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sectionTittle {
+    color: #1C1C1C;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.textDetails {
+    color: #777;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* banner styles from here */
+header {
+    padding: 60px 230px;
+}
+
+.mainTopBanner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bannerText>h1 {
+    color: #1C1C1C;
+    font-family: Manrope;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.bannerText>p {
+    color: #777;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 30px 0px;
+}
+
+.mainTopBanner .bannerImage {
+    padding-top: 70px;
+    width: 600px;
+}
+
+.mainTopBanner .bannerText {
+    width: 630px;
+}
+
+.trustpilotReviewBox {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 13px;
+    padding: 19px 27px;
+    margin-top: -120px;
+    margin-left: 80px;
+    width: 209px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.trustpilotratting {
+    color: #1C1C1C;
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.trustpilotReviewBox>i {
+    color: #e7b81d;
+    font-size: 40px;
+}
+
+/* product feature styles */
+.productFeatures {
+    text-align: center;
+
+    margin-top: 100px;
+}
+
+.productFeatures>p {
+    padding: 30px 0px 50px 0px;
+}
+
+.teaVariants {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.tea-cards {
+    width: 270px;
+    background: linear-gradient(white,rgba(85, 82, 82, 0.171));
+    /* background-color: linear-gradient(180deg, #F4F4F4 , rgba(244, 244, 244, 0.00)); */
+    height: 330px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.tea-cards>h1 {
+    padding-top: 30px;
+    color: #1C1C1C;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.tea-cards>p {
+    color: #777;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
+}
