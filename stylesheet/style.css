@@ -9,10 +9,12 @@
 .bg-white {
     background: #FFF;
 }
-section{
+
+section {
     width: 1140px;
     margin: 0 auto;
 }
+
 .button-primary {
     border-radius: 10px;
     background: linear-gradient(270deg, #F00 0%, #FF8938 100%);
@@ -145,10 +147,11 @@ header {
 }
 
 /* Great Tea, Freshly Presented shyle sheet */
-.freshlysection{
-    
+.freshlysection {
+
     padding: 130px 230px;
 }
+
 .freshlysectioncoloumnleft {
     display: flex;
     gap: 30px;
@@ -188,31 +191,154 @@ header {
     border-radius: 10px;
     background: rgba(230, 166, 35, 0.10);
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     display: flex;
 }
-.freshlysection{
+
+.freshlysection {
     display: flex;
     gap: 70px;
 }
-.freshlysectioncoloumnright{
+
+.freshlysectioncoloumnright {
     padding-left: 20px;
 }
-.freshlysectioncoloumnright h1{
+
+.freshlysectioncoloumnright h1 {
     color: #1C1C1C;
-font-family: Manrope;
-font-size: 45px;
-font-weight: 800;
-margin-bottom: 20px;
+    font-family: Manrope;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
-.freshlysectioncoloumnright h3{
-    color:#1C1C1C;
-font-family: Manrope;
-font-size: 20px;
-font-weight: 800;
-padding: 30px 0px 20px 0px;
+
+.freshlysectioncoloumnright h3 {
+    color: #1C1C1C;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 30px 0px 20px 0px;
 }
-.freshlysectioncoloumnright p{
-    
+
+.freshlysectioncoloumnright p {
+
     line-height: 35px;
+}
+
+/* meet client section styles */
+.meetclient {
+    border-radius: 10px;
+    padding: 100px 70px;
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 180px;
+    background:linear-gradient(270deg, #F00 0%, #FF8938 100%);
+    align-items: center;
+    height: 400px;
+    margin-bottom: 200px;
+
+
+}
+.meetclientcolomn{
+    width: 450px;
+}
+
+.meetclientcolomn h1,
+.meetclientcolomn p {
+    color: #FFF;
+    text-align: left;
+}
+.meetclientcolomn p{
+    
+    padding: 30px 0px;
+    
+    line-height: 30px;
+}
+
+.meetclientcolomn button {
+    border-radius: 8px;
+    background: #FFF;
+    font-family: Manrope;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 14px 28px;
+    border: 0;
+    color: #FF8938;
+
+
+}
+
+.meetclientcolomnright {
+    width: 330px;
+    font-family: Manrope;
+    border-radius: 8px;
+}
+
+.meetclientcard p {
+    color: #777;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.meetclientcard h3 {
+    color: #1C1C1C;
+    font-family: Manrope;
+    margin: 30px 0px 10px 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.meetclientcard {
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+
+    background: #FFF;
+    border-radius: 8px;
+    width: 400px;
+    
+    box-shadow: 2px 2px 4px black;
+}
+
+.meetclientcard img {
+    width: 60px;
+    border-radius: 60px;
+    height: 60px;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    padding: 5px;
+    background: white;
+
+}
+
+.meetclientcard .textclien {
+
+    padding: 30px;
+}
+
+.meetclientcards{
+    position: relative;
+}
+.meetclientcards>.cardd{
+position: absolute
+}
+.meetclientcards>.card1{
+    top: -200px;
+    left :80px
+}
+.meetclientcards>.card2{
+    left :80px
+}
+.meetclientcards>.card3{
+    top:-100px;
+}
+.meetclientcards>.card1>.meetclientcard,.meetclientcards>.card2>.meetclientcard{
+    background: rgb(245 255 253 / 31%);
+    box-shadow: 2px 2px 4px black;
+}
+.meetclientcards>.card1>.meetclientcard p,.meetclientcards>.card2>.meetclientcard p{
+    color: rgb(54, 52, 52)
 }
