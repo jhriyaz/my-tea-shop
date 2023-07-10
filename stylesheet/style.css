@@ -75,9 +75,12 @@ header {
 .mainTopBanner .bannerText {
     width: 630px;
 }
-
+.trustpilotReviewBox hr{
+    margin: 6px 0px;
+}
 .trustpilotReviewBox {
     display: flex;
+    position: absolute;
     justify-content: left;
     align-items: center;
     gap: 13px;
@@ -341,4 +344,146 @@ position: absolute
 }
 .meetclientcards>.card1>.meetclientcard p,.meetclientcards>.card2>.meetclientcard p{
     color: rgb(54, 52, 52)
+}
+/* news section styles */
+.newsevent>p{
+    text-align: center;
+    padding: 20px 0px 50px 0px;
+}
+.newscards{
+    display: flex;
+    gap: 30px;
+
+}
+.newscard{
+    border-radius: 10px;
+border: 1px solid var(--dark-05, #D2D2D2);
+padding: 21px;
+}
+.newscardtext{
+    padding:10px;
+    line-height: 30px;
+}
+.newscardtext p{
+    padding: 10px 0px;
+}
+.newscardtext h3{
+    color: #1C1C1C;
+font-family: Manrope;
+font-size: 20px;
+font-weight: 800;
+}
+.newscardtext a{
+    text-decoration: none;
+    color:#1C1C1C;
+font-family: Manrope;
+font-size: 16px;
+font-weight: 700;
+}
+/* footer section stylesheet here */
+footer{
+    background: linear-gradient(270deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 137, 56, 0.10) 100%);
+    padding: 30px;
+    margin-top: 150px;
+}
+.topfooter{
+    display: flex;
+    padding: 130px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.topfooterright{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    align-items: center;
+}
+.topfooterright p{
+    color:  #494949;
+text-align: right;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+}
+.topfooterright button{
+    border-radius: 8px;
+background: linear-gradient(45deg, #F00 50%, #FF8938 50%);
+box-shadow: 2px 2px 4px rgb(148, 146, 146);
+padding: 15px 25px;
+color: #000000;
+font-family: Manrope;
+font-size: 20px;
+font-weight: 700;
+border: 0;
+}
+footer:hover #getstartedbtn{
+    background: linear-gradient(45deg,#FF8938 50%,#F00 50%);
+    transform: rotate(360deg);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.bottomfooter {
+display: flex;
+justify-content: space-between;
+line-height: 30px;
+}
+.bottomfooter li{
+    list-style: none;
+    
+}
+.bottomfooter li>a{
+    text-decoration: none;
+    color: #494949;
+font-family: Manrope;
+font-size: 16px;
+font-weight: 400;
+}
+.bottomfooter h2{
+    color: #1C1C1C;
+font-family: Manrope;
+font-size: 20px;
+font-weight: 600;
+padding-bottom: 30px;
+}
+.bottomfooter h1{
+    color: #1C1C1C;
+font-family: Manrope;
+font-size: 24px;
+font-weight: 600;
+line-height: 40px;
+}
+.bottomfooter form input{
+    padding:15px 10px 15px 0px;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    outline: none
+}
+.bottomfooter form>label>button{
+    background: linear-gradient(270deg, #F00 0%, #FF8938 100%);
+    border: 0;
+    padding: 10px;
+    border-radius: 250px;
+    margin-left: -10px;
+    color: wheat;
+
+}
+.sociallinks{
+    padding-top: 20px;
+}
+.sociallinks a{
+    color: rgba(73, 73, 73, 1);
+    padding: 0px 20px 0px 0px;
+    font-weight: 800;
+    font-size: 20px;
+}
+footer>p{
+    color:  #494949;
+text-align: center;
+font-family: Manrope;
+font-size: 16px;
+font-weight: 500;
+padding-top: 150px;
 }
